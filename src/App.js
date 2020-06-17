@@ -1,5 +1,5 @@
 import React from 'react'
-import ListaPersonasContainer from './Containers/ListaPersonasContainer'
+import ListaPersonasContainer from './Containers/PersonasController'
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <ListaPersonasContainer />    
     </div>
-  );
+  )
 }
 
 export default App

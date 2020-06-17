@@ -1,11 +1,21 @@
 body {
   justify-content: center;
-  margin: 0;
+  margin: 0 auto;
+  background-color: #DFE7F2;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.load {
+  text-align: center;
+  align-content: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%; 
+  color: #221A40;
 }
 
 code {

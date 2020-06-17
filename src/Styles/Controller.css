@@ -1,0 +1,101 @@
+.body {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+    background-color: #DFE7F2;
+    text-align: center;
+    color: #221A40;
+}
+
+.find {
+    color: red;
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #221A40; 
+    color: #F2CB05;
+}
+
+input {
+    padding: 0.5em;
+    margin-right: .5em
+}
+
+button {
+    padding: 0.5em;
+    border: none;
+}
+
+.search-input {
+    background-color: #DFE7F2;
+    border: none;
+    
+}
+
+.search-button {
+    background-color: #D9763D;
+}
+
+.list-title {
+    background-color: #D9763D;
+    padding: .5em 0;
+    margin: 0 auto;
+    margin-bottom: .5em;
+    align-self: center;
+    width: 100%;
+    text-align: center;
+    border-radius: 0 0 5px 5px;
+}
+
+.edit {
+    margin-bottom: 1em;
+    padding-top: 0; 
+}
+
+.edit > form > button {
+    margin-right: .5em;
+}
+
+.body > h2 {
+    align-self: center;
+    color: #221A40;
+}
+
+button {
+    background-color: #221A40;
+    color: #F2CB05;
+    
+}
+
+.create {
+    background-color: #D9763D;
+    padding: 1em;   
+    padding-top: 0;
+    margin-top: 1em;
+    border-radius: 5px; 
+}
+/* Color Theme Swatches in Hex */
+.Illustrations-for-Los-Angeles-Times-1-hex { color: #D91E41; }
+.Illustrations-for-Los-Angeles-Times-2-hex { color: #221A40; }
+.Illustrations-for-Los-Angeles-Times-3-hex { color: #F2CB05; }
+.Illustrations-for-Los-Angeles-Times-4-hex { color: #F2AC29; }
+.Illustrations-for-Los-Angeles-Times-5-hex { color: #D9763D; }
+
+/* Color Theme Swatches in RGBA */
+.Illustrations-for-Los-Angeles-Times-1-rgba { color: rgba(216, 30, 64, 1); }
+.Illustrations-for-Los-Angeles-Times-2-rgba { color: rgba(34, 26, 63, 1); }
+.Illustrations-for-Los-Angeles-Times-3-rgba { color: rgba(242, 202, 4, 1); }
+.Illustrations-for-Los-Angeles-Times-4-rgba { color: rgba(242, 171, 41, 1); }
+.Illustrations-for-Los-Angeles-Times-5-rgba { color: rgba(216, 117, 60, 1); }
+
+/* Color Theme Swatches in HSLA */
+.Illustrations-for-Los-Angeles-Times-1-hsla { color: hsla(348, 75, 48, 1); }
+.Illustrations-for-Los-Angeles-Times-2-hsla { color: hsla(253, 41, 17, 1); }
+.Illustrations-for-Los-Angeles-Times-3-hsla { color: hsla(50, 96, 48, 1); }
+.Illustrations-for-Los-Angeles-Times-4-hsla { color: hsla(39, 88, 55, 1); }
+.Illustrations-for-Los-Angeles-Times-5-hsla { color: hsla(22, 67, 54, 1); }
